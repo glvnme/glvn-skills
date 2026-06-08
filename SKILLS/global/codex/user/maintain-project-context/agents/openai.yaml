@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Project Context"
+  short_description: "Review AI context docs for prompt debt"
+  default_prompt: "Use $maintain-project-context to review this repo's AI-facing context files and report lean Markdown recommendations without editing files."

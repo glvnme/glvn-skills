@@ -1,0 +1,7 @@
+interface:
+  display_name: "Proceed"
+  short_description: "Bare invoke to continue and report status"
+  default_prompt: "Use $proceed."
+
+policy:
+  allow_implicit_invocation: true

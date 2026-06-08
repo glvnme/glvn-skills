@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dieter Rams UI"
+  short_description: "Rams-inspired product UI design"
+  default_prompt: "Use $dieter-rams-ui to design a calm, useful product interface."

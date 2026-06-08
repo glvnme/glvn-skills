@@ -1,0 +1,4 @@
+interface:
+  display_name: "Red Green TDD"
+  short_description: "Disciplined test-first coding loop"
+  default_prompt: "Use $red-green-tdd to implement this change one behavior at a time with failing tests first."

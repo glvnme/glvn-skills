@@ -1,0 +1,4 @@
+interface:
+  display_name: "v0 Next Local Bootstrap"
+  short_description: "Clean and run v0 Next projects locally"
+  default_prompt: "Use $v0-next-local-bootstrap to prepare this downloaded v0 or Vercel Next.js project for clean local development and separate redeployment."

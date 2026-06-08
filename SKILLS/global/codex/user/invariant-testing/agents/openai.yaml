@@ -1,0 +1,4 @@
+interface:
+  display_name: "Invariant Testing"
+  short_description: "Test domain rules that must always hold"
+  default_prompt: "Use $invariant-testing to identify and test the invariants this change must preserve."

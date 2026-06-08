@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revision Pass"
+  short_description: "Find gaps, fake shortcuts, and harden work."
+  default_prompt: "Use $revision-pass to revise this work, identify gaps and fake shortcuts, recommend fixes, patch them, and verify the result."
