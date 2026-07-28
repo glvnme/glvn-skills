@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fake News"
+  short_description: "Audit an answer for fabricated or broken claims"
+  default_prompt: "Use $fake-news to treat the previous answer as suspect, verify it against reality and my original intent, and replace it with a corrected result."
