@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-06-04T09:48:23.4671769+03:00",
+    "generatedAt":  "2026-07-24T14:27:30.7664608+03:00",
     "project":  "C:\\Users\\fargrik\\Documents\\dev\\glvn-skills",
     "roots":  [
                   {
@@ -11,9 +11,9 @@
                       "excluded":  [
                                        ".waw-skill-backups"
                                    ],
-                      "skillCount":  23,
-                      "fileCount":  65,
-                      "byteCount":  692792
+                      "skillCount":  25,
+                      "fileCount":  70,
+                      "byteCount":  705255
                   },
                   {
                       "id":  "claude-user",
@@ -24,9 +24,9 @@
                       "excluded":  [
 
                                    ],
-                      "skillCount":  23,
-                      "fileCount":  65,
-                      "byteCount":  692793
+                      "skillCount":  24,
+                      "fileCount":  68,
+                      "byteCount":  702429
                   },
                   {
                       "id":  "codex-plugin-cache",
@@ -66,9 +66,9 @@
                                        ".waw-skill-backups",
                                        "codex-primary-runtime"
                                    ],
-                      "skillCount":  28,
-                      "fileCount":  89,
-                      "byteCount":  702646
+                      "skillCount":  29,
+                      "fileCount":  92,
+                      "byteCount":  712282
                   },
                   {
                       "id":  "cursor-native",
@@ -92,9 +92,9 @@
                       "excluded":  [
 
                                    ],
-                      "skillCount":  20,
-                      "fileCount":  59,
-                      "byteCount":  621014
+                      "skillCount":  21,
+                      "fileCount":  62,
+                      "byteCount":  630650
                   }
               ],
     "skills":  [
@@ -252,6 +252,21 @@
                        "platform":  "agents",
                        "scope":  "shared",
                        "rootId":  "agents-shared",
+                       "name":  "no-ai-slop-writing",
+                       "relativeSkill":  "no-ai-slop-writing/SKILL.md",
+                       "archivePath":  "SKILLS/global/agents/shared/no-ai-slop-writing/SKILL.md",
+                       "sourcePath":  "C:\\Users\\fargrik\\.agents\\skills\\no-ai-slop-writing\\SKILL.md",
+                       "description":  "Keep prose free of the local AI-slop exclusion list without loading the long vocabulary unless the task needs it. Use only when the user explicitly asks to remove AI slop, banned words, robotic or synthetic wording, improve human tone, review public-facing prose, or when a related writing task has high polish or publication risk; do not invoke for routine code work, status updates, terminal summaries, or ordinary technical answers.",
+                       "sha256":  "fe29a507a6be3ef42720bca9e39d84511cf507b9243db1eecda5a14e3938a6b8",
+                       "fileCount":  3,
+                       "byteCount":  9636,
+                       "sourceIsLinked":  false,
+                       "linkTarget":  null
+                   },
+                   {
+                       "platform":  "agents",
+                       "scope":  "shared",
+                       "rootId":  "agents-shared",
                        "name":  "pinokio",
                        "relativeSkill":  "pinokio/SKILL.md",
                        "archivePath":  "SKILLS/global/agents/shared/pinokio/SKILL.md",
@@ -380,6 +395,21 @@
                        "sha256":  "4f3ab41955c9286633bb216a2ac346cadab28a15893427939360da67bf9eaa78",
                        "fileCount":  13,
                        "byteCount":  74935,
+                       "sourceIsLinked":  false,
+                       "linkTarget":  null
+                   },
+                   {
+                       "platform":  "agents",
+                       "scope":  "shared",
+                       "rootId":  "agents-shared",
+                       "name":  "shitcode",
+                       "relativeSkill":  "shitcode/SKILL.md",
+                       "archivePath":  "SKILLS/global/agents/shared/shitcode/SKILL.md",
+                       "sourcePath":  "C:\\Users\\fargrik\\.agents\\skills\\shitcode\\SKILL.md",
+                       "description":  "Takes AI-generated code that is complete shit and rebuilds it into smaller, clearer, maintainable code without changing behavior. Use when the user says shitcode, shit code, AI slop, garbage, spaghetti, overengineered, bloated, or asks for aggressive behavior-preserving cleanup or LOC reduction.",
+                       "sha256":  "f2a13c37b3ba5fafa75f80b8ce7cf50d126c008b68821caafc25e709086956ba",
+                       "fileCount":  2,
+                       "byteCount":  2827,
                        "sourceIsLinked":  false,
                        "linkTarget":  null
                    },
@@ -590,6 +620,21 @@
                        "sha256":  "8829b08fb0fc65ac10cb1d3ab68075df7076f03a2cc59c718365b1ea395a14ab",
                        "fileCount":  4,
                        "byteCount":  14920,
+                       "sourceIsLinked":  false,
+                       "linkTarget":  null
+                   },
+                   {
+                       "platform":  "claude",
+                       "scope":  "user",
+                       "rootId":  "claude-user",
+                       "name":  "no-ai-slop-writing",
+                       "relativeSkill":  "no-ai-slop-writing/SKILL.md",
+                       "archivePath":  "SKILLS/global/claude/user/no-ai-slop-writing/SKILL.md",
+                       "sourcePath":  "C:\\Users\\fargrik\\.claude\\skills\\no-ai-slop-writing\\SKILL.md",
+                       "description":  "Keep prose free of the local AI-slop exclusion list without loading the long vocabulary unless the task needs it. Use only when the user explicitly asks to remove AI slop, banned words, robotic or synthetic wording, improve human tone, review public-facing prose, or when a related writing task has high polish or publication risk; do not invoke for routine code work, status updates, terminal summaries, or ordinary technical answers.",
+                       "sha256":  "fe29a507a6be3ef42720bca9e39d84511cf507b9243db1eecda5a14e3938a6b8",
+                       "fileCount":  3,
+                       "byteCount":  9636,
                        "sourceIsLinked":  false,
                        "linkTarget":  null
                    },
@@ -1160,6 +1205,21 @@
                        "sha256":  "8829b08fb0fc65ac10cb1d3ab68075df7076f03a2cc59c718365b1ea395a14ab",
                        "fileCount":  4,
                        "byteCount":  14920,
+                       "sourceIsLinked":  false,
+                       "linkTarget":  null
+                   },
+                   {
+                       "platform":  "codex",
+                       "scope":  "user",
+                       "rootId":  "codex-user",
+                       "name":  "no-ai-slop-writing",
+                       "relativeSkill":  "no-ai-slop-writing/SKILL.md",
+                       "archivePath":  "SKILLS/global/codex/user/no-ai-slop-writing/SKILL.md",
+                       "sourcePath":  "C:\\Users\\fargrik\\.codex\\skills\\no-ai-slop-writing\\SKILL.md",
+                       "description":  "Keep prose free of the local AI-slop exclusion list without loading the long vocabulary unless the task needs it. Use only when the user explicitly asks to remove AI slop, banned words, robotic or synthetic wording, improve human tone, review public-facing prose, or when a related writing task has high polish or publication risk; do not invoke for routine code work, status updates, terminal summaries, or ordinary technical answers.",
+                       "sha256":  "fe29a507a6be3ef42720bca9e39d84511cf507b9243db1eecda5a14e3938a6b8",
+                       "fileCount":  3,
+                       "byteCount":  9636,
                        "sourceIsLinked":  false,
                        "linkTarget":  null
                    },
@@ -1760,6 +1820,21 @@
                        "sha256":  "072c86a742e5e163d93910614bf2b3febd37003f4079fc58e79ce7ce5b48fdb5",
                        "fileCount":  4,
                        "byteCount":  14439,
+                       "sourceIsLinked":  false,
+                       "linkTarget":  null
+                   },
+                   {
+                       "platform":  "cursor",
+                       "scope":  "shared",
+                       "rootId":  "cursor-shared",
+                       "name":  "no-ai-slop-writing",
+                       "relativeSkill":  "no-ai-slop-writing/SKILL.md",
+                       "archivePath":  "SKILLS/global/cursor/shared/no-ai-slop-writing/SKILL.md",
+                       "sourcePath":  "C:\\Users\\fargrik\\.cursor\\skills\\no-ai-slop-writing\\SKILL.md",
+                       "description":  "Keep prose free of the local AI-slop exclusion list without loading the long vocabulary unless the task needs it. Use only when the user explicitly asks to remove AI slop, banned words, robotic or synthetic wording, improve human tone, review public-facing prose, or when a related writing task has high polish or publication risk; do not invoke for routine code work, status updates, terminal summaries, or ordinary technical answers.",
+                       "sha256":  "fe29a507a6be3ef42720bca9e39d84511cf507b9243db1eecda5a14e3938a6b8",
+                       "fileCount":  3,
+                       "byteCount":  9636,
                        "sourceIsLinked":  false,
                        "linkTarget":  null
                    },

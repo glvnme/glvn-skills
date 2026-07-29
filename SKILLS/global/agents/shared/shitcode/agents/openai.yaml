@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shitcode"
+  short_description: "Fix AI-generated shit without breaking behavior"
+  default_prompt: "Use $shitcode to fix this pile of AI-generated shit: make it smaller and cleaner without breaking any behavior or pipeline."

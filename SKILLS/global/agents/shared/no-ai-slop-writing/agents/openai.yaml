@@ -1,0 +1,4 @@
+interface:
+  display_name: "No AI Slop Writing"
+  short_description: "Write direct, human-friendly prose"
+  default_prompt: "Use $no-ai-slop-writing to revise this text into direct, human-friendly prose."
